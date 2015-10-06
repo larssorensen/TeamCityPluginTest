@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TeamCityPluginTestDummyProject</id>
+    <title>TeamCityPluginTestDummyProject</title>
+    <version>0.0.0</version>
+    <authors>RiksTV AS</authors>
+    <owners>RiksTV AS</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TeamCity Plugin Test Dummy Project</description>
+    <releaseNotes></releaseNotes>
+    <iconUrl>https://www.rikstv.no/images/logo.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="bin\Release\TeamCityPluginTestDummyProject.dll" target="lib\net45\" />
+  </files>
+</package>
