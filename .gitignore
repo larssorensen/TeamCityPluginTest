@@ -3,7 +3,7 @@
 
 # User-specific files
 *.suo
-*.user
+*.user$
 *.sln.docstates
 
 # Build results
@@ -55,6 +55,7 @@ dlldata.c
 .builds
 *.pidb
 *.svclog
+*.log
 *.scc
 
 # Chutzpah Test files
@@ -83,6 +84,7 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
+*.DotSettings
 
 # JustCode is a .NET coding addin-in
 .JustCode
@@ -94,6 +96,7 @@ _TeamCity*
 *.dotCover
 
 # NCrunch
+*.ncrunch*
 _NCrunch_*
 .*crunch*.local.xml
 
@@ -156,6 +159,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
+*.[Pp]ublish.xml
 *.pfx
 *.publishsettings
 node_modules/
@@ -187,3 +191,20 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
